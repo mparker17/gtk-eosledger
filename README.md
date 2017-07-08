@@ -14,17 +14,18 @@ A GTK+ interface for the ledger project's double-entry accounting system journal
 
         sudo apt install elementary-sdk
 
-2. It's recommended to create a clean build environment:
+2. Next, download or clone this project.
+3. It's recommended to create a clean build environment:
 
         git clean -df
         cd build/
 
-3. Run `cmake` to configure the build environment and then `make all test` to build and run tests:
+4. Run `cmake` to configure the build environment and then `make all test` to build and run tests:
 
         cmake -DCMAKE_INSTALL_PREFIX=/usr ..
         make all test
 
-4. To install, use `make install`, then execute with `gtk-eosledger`:
+5. To install, use `make install`, then execute with `gtk-eosledger`:
 
         sudo make install
         gtk-eosledger
