@@ -1,0 +1,26 @@
+# gtk-eosledger
+
+A GTK+ interface for the ledger project's double-entry accounting system journal files, designed for Elementary OS.
+
+# Build
+
+1. You will need the following dependencies:
+
+    * cmake
+    * libgtk-3-dev
+    * valac
+
+2. It's recommended to create a clean build environment:
+
+        git clean -df
+        cd build/
+
+3. Run `cmake` to configure the build environment and then `make all test` to build and run tests:
+
+        cmake -DCMAKE_INSTALL_PREFIX=/usr ..
+        make all test
+
+4. To install, use `make install`, then execute with `gtk-eosledger`:
+
+        sudo make install
+        gtk-eosledger
