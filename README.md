@@ -10,6 +10,10 @@ A GTK+ interface for the ledger project's double-entry accounting system journal
     * libgtk-3-dev
     * valac
 
+    If you are using Elementary OS, the best way to do this is to run:
+
+        sudo apt install elementary-sdk
+
 2. It's recommended to create a clean build environment:
 
         git clean -df
