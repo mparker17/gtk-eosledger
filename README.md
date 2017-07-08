@@ -25,7 +25,7 @@ A GTK+ interface for the ledger project's double-entry accounting system journal
         cmake -DCMAKE_INSTALL_PREFIX=/usr ..
         make all test
 
-5. To install, use `make install`, then execute with `gtk-eosledger`:
+5. To install, use `make install`, then execute with `com.github.mparker17.gtk-eosledger`:
 
         sudo make install
-        gtk-eosledger
+        com.github.mparker17.gtk-eosledger

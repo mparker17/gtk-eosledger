@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop">
+    <id>com.github.mparker17.gtk-eosledger</id>
+    <metadata_license>BSD-3-Clause</metadata_license>
+    <name>EOS Ledger</name>
+    <summary>A GTK+ interface for the ledger project's double-entry accounting system journal files, designed for Elementary OS.</summary>
+    <description>
+        <p>A GTK+ interface for the ledger project's double-entry accounting system journal files, designed for Elementary OS.</p>
+    </description>
+    <categories>
+        <category>Utility</category>
+        <category>Finance</category>
+        <category>GTK</category>
+    </categories>
+    <project_license>BSD-3-Clause</project_license>
+    <developer_name>The gtk-eosledger community</developer_name>
+    <translation type="gettext">com.github.mparker17.gtk-eosledger</translation>
+    <suggests>
+        <id>com.github.ledger.ledger</id>
+        <id>org.ledger-cli</id>
+        <id>com.github.simonmichael.hledger</id>
+        <id>org.hledger</id>
+    </suggests>
+</component>

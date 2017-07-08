@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=Application
+Version=0.1
+Name=EOS Ledger
+Comment=A GTK+ interface for the ledger project's double-entry accounting system journal files, designed for Elementary OS.
+Icon=application-default-icon
+Exec=com.github.mparker17.gtk-eosledger
+Terminal=false
+Categories=Utility;Finance;GTK;
+Keywords=gtk3;elementaryos;vala;cmake;ledger;plaintext-accounting;accounting;utility;finance;
+X-GNOME-Gettext-Domain=gtk-eosledger
