@@ -17,6 +17,7 @@
     <url type="faq">https://github.com/mparker17/gtk-eosledger/issues</url>
     <url type="help">https://github.com/mparker17/gtk-eosledger/issues</url>
     <url type="translate">https://github.com/mparker17/gtk-eosledger/issues</url>
+    <launchable type="desktop-id">com.github.mparker17.gtk-eosledger.desktop</launchable>
     <project_license>BSD-3-Clause</project_license>
     <developer_name>The gtk-eosledger community</developer_name>
     <translation type="gettext">com.github.mparker17.gtk-eosledger</translation>
